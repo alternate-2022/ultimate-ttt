@@ -139,3 +139,5 @@ export function UltimateBoard({
         )}
       </AnimatePresence>
     </div>
+  );
+}
