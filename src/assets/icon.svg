@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="#ffffff" fill-opacity="0.92" font-family="Arial, sans-serif" font-weight="700" font-size="92" text-anchor="middle">
+    <!-- 3x3 grid of X/O tiles -->
+    <g fill-opacity="0.16">
+      <rect x="76" y="76" width="112" height="112" rx="20"/>
+      <rect x="200" y="76" width="112" height="112" rx="20"/>
+      <rect x="324" y="76" width="112" height="112" rx="20"/>
+      <rect x="76" y="200" width="112" height="112" rx="20"/>
+      <rect x="200" y="200" width="112" height="112" rx="20"/>
+      <rect x="324" y="200" width="112" height="112" rx="20"/>
+      <rect x="76" y="324" width="112" height="112" rx="20"/>
+      <rect x="200" y="324" width="112" height="112" rx="20"/>
+      <rect x="324" y="324" width="112" height="112" rx="20"/>
+    </g>
+    <text x="132" y="163">X</text>
+    <text x="256" y="163">O</text>
+    <text x="380" y="163">X</text>
+    <text x="132" y="287">O</text>
+    <text x="256" y="287">X</text>
+    <text x="380" y="287">O</text>
+    <text x="132" y="411">X</text>
+    <text x="256" y="411">O</text>
+    <text x="380" y="411">X</text>
+  </g>
+</svg>
